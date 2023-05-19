@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundTint="#0C0808"
+        android:onClick="onClick">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="92dp"
+            android:background="?android:attr/listDivider" />
+
+        <SearchView
+            android:layout_width="311dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="19dp" />
+
+        <ImageButton
+            android:id="@+id/settings1"
+            android:layout_width="28dp"
+            android:layout_height="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="27dp"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <ImageButton
+            android:id="@+id/report1"
+            android:layout_width="24dp"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="49dp"
+            android:layout_toStartOf="@+id/settings1"
+            android:background="@color/white"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/send" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="28dp"
+            android:layout_toStartOf="@+id/settings"
+            android:text="Report"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/study1"
+            android:layout_width="28dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="62dp"
+            android:layout_marginBottom="49dp"
+            android:layout_toStartOf="@+id/report1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/book" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="27dp"
+            android:layout_toStartOf="@+id/textView2"
+            android:text="Study"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="67dp"
+            android:layout_toStartOf="@+id/study1"
+            android:background="@color/white"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icons8_home_96___" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="48dp"
+            android:layout_toStartOf="@+id/textView3"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="348dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/icons8_menu_50" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            style="@style/Widget.AppCompat.DrawerArrowToggle"
+            android:layout_width="314dp"
+            android:layout_height="128dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="44dp"
+            android:background="@drawable/round_button"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/report" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="128dp"
+            android:layout_below="@+id/imageButton7"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="44dp"
+            android:background="@drawable/round_button"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/notes" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="313dp"
+            android:layout_height="152dp"
+            android:layout_below="@+id/imageButton9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="43dp"
+            android:background="@drawable/round_button"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/study" />
+
+
+    </RelativeLayout>
+</LinearLayout>

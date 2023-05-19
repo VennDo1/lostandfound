@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundTint="#0C0808">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="92dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="295dp"
+            android:layout_height="131dp"
+            android:layout_alignTop="@+id/textView18"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="192dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="189dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="#6BC6A5"
+            android:clipToOutline="true"
+            android:gravity="center"
+            android:outlineProvider="background"
+            android:text="Create a Found Report"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/settings1"
+            android:layout_width="28dp"
+            android:layout_height="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="27dp"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <ImageButton
+            android:id="@+id/report1"
+            android:layout_width="24dp"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="67dp"
+            android:layout_toStartOf="@+id/settings1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/send1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="48dp"
+            android:layout_toStartOf="@+id/settings"
+            android:text="Report"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/study1"
+            android:layout_width="28dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="62dp"
+            android:layout_marginBottom="49dp"
+            android:layout_toStartOf="@+id/report1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/book" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="27dp"
+            android:layout_toStartOf="@+id/textView2"
+            android:text="Study"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/home1"
+            android:layout_width="28dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="47dp"
+            android:layout_toStartOf="@+id/study1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="27dp"
+            android:layout_toStartOf="@+id/textView3"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="298dp"
+            android:layout_height="122dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="219dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="390dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="#FFBD59"
+            android:clipToOutline="true"
+            android:gravity="center"
+            android:outlineProvider="background"
+            android:text="Create a Lost Report"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/lost"
+            android:layout_width="61dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginEnd="311dp"
+            android:layout_marginBottom="470dp"
+            android:background="@drawable/round_button1"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/yellow" />
+
+        <ImageButton
+            android:id="@+id/found"
+            android:layout_width="61dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="399dp"
+            android:layout_marginEnd="311dp"
+            android:layout_marginBottom="275dp"
+            android:background="@drawable/round_button1"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/green" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="635dp"
+            android:text="Lost and Found"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="317dp"
+            android:layout_marginBottom="605dp"
+            android:text="Report"
+            android:textColor="@color/material_dynamic_neutral30"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
